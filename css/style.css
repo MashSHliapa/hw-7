@@ -154,7 +154,7 @@ span {
   color: #EC7979;
 }
 
-.button {
+.button-info {
   background: #EC7979;
   width: 470px;
   height: 60px;
@@ -162,7 +162,7 @@ span {
   border-bottom-right-radius: 10px;
 }
 
-.buttom__text {
+.buttom-info__text{
   font-weight: 600;
   font-size: 15px;
   color:#FFFFFF;
@@ -225,48 +225,102 @@ flex-direction: row;
   margin: 50px 0;
 }
 
-.design__title {
+.title {
   font-size: 36px;
   font-weight: bold;
   line-height: 42.26px;
   width: 1170px;
   height: 150px;
-  padding-top: 55px;
+  text-transform: uppercase;
   text-align: center;
+  padding-top: 55px;
 }
 
-.design__separator {
+.design__title {
+  padding-top: 55px;
+}
+
+.separator {
   width: 170px;
   height: 1px;
   background-color: #FFFFFF;
   margin: 0 auto;
 }
 
-.design__subtitle {
+.subtitle {
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
   width: 1170px;
   height: 21px;
   text-align: center;
+}
+
+.design__subtitle {
   margin: 40px 0 73px 0;
 }
 
-.design__button {
+.button {
   width: 370px;
   height: 58px;
-  border: 2px solid #FFFFFF;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
 }
 
-.design__button-text {
+.design__button {
+  border: 2px solid #FFFFFF;
+}
+
+.button-text {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 24.51px;
-  color: #FFFFFF;
   text-decoration: none;
+}
+
+.design__button-text {
+  color: #FFFFFF;
+}
+
+.contact-box {
+  background: #E5E5E5;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.contact-container {
+  width: 1170px;
+  height: 622px;
+  margin: 50px 0;
+}
+
+.contact {
+  font-family: "Raleway", sans-serif;
+}
+
+.contact__title {
+  color: #000000;
+}
+
+.contact__separator {
+  background-color: #EC7979;
+}
+
+.contact__subtitle {
+  margin: 40px 0;
+}
+
+.contact__button {
+  background: #EC7979;
+  position: absolute;
+  bottom: 50px;
+  left: 570px;
+}
+
+.contact__button-text {
+  color: #FFFFFF;
 }
