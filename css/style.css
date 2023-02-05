@@ -169,3 +169,41 @@ span {
   text-align: center;
   padding: 20px 0;
 }
+
+.box-link {
+  width: 1510px;
+  height: 140px;
+  background: #F8EFEF;
+  display: flex;
+  justify-content: center;
+}
+
+/*.box-link__text {}*/
+
+.box-link__text-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  width: 470px;
+  height: 60px;
+  padding: 13px 0;
+  margin-bottom: 18px;
+}
+
+.box-link__text-subtitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  width: 470px;
+  height: 42px;
+}
+
+.box-link__networks {
+display: flex;
+flex-direction: row;
+}
+
+.box-link__networks-type {
+  margin-left: 46px;
+  padding-top: 42px;
+}
