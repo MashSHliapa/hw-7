@@ -324,3 +324,38 @@ flex-direction: row;
 .contact__button-text {
   color: #FFFFFF;
 }
+/*.footer {}*/
+
+.footer-container {
+  width: 1510px;
+  height: 164px;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 38px;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer-container__networks {
+  display: flex;
+  justify-content: space-between;
+  width: 939px;
+  height: 45px;
+}
+
+.footer-container__networks-type {
+  text-decoration: none;
+}
+
+.footer-title {
+  width: 1169px;
+  height: 21px;
+  margin-top: 15px;
+}
+
+.footer-title__text {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  text-align: center;
+}
