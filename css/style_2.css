@@ -182,6 +182,9 @@ position: relative;
   position: absolute;
   left: 1283px;
   top: 1139px;
+  /*background-image: linear-gradient(#FD749B , #281ac8);
+  background: linear-gradient(#FD749B , #281ac8);*/
+  filter: brightness(80%);
 }
 
 .service-container {
